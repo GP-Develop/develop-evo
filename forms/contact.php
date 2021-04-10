@@ -17,9 +17,9 @@
   $contact->subject = $_POST['subject'];
 
   $contact->smtp = array(
-    'host' => 'smtpout.secureserver.net',
+    'host' => '',
     'username' => 'comunicacion@evoiq.com.mx',
-    'password' => '32U&7Qd5?UJt3$8',
+    'password' => '',
     'port' => '465'
   );
 
