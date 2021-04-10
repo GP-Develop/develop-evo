@@ -180,6 +180,24 @@ tbody, td, tfoot, th, thead, tr {
   letter-spacing: 0.3px;
 }
 
+.without-action a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffff;
+  white-space: nowrap;
+  transition: 0.3s;
+  letter-spacing: 0.3px;
+}
+
+.without-action a:hover, .navbar .active, .navbar li:hover > a {
+  color: #ffffff;
+}
+
 .navbar a i {
   font-size: 12px;
   line-height: 0;
