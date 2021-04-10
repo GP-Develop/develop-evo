@@ -1,6 +1,6 @@
 <?php
 
-  $receiving_email_address = 'comunicacion@evoiq.com';
+  $receiving_email_address = 'comunicacion@evoiq.com.mx';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
@@ -18,7 +18,7 @@
 
   $contact->smtp = array(
     'host' => 'smtpout.secureserver.net',
-    'username' => 'comunicacion@evoiq.com',
+    'username' => 'comunicacion@evoiq.com.mx',
     'password' => '32U&7Qd5?UJt3$8',
     'port' => '465'
   );
